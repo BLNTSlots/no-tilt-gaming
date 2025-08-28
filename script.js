@@ -3,7 +3,7 @@ const casinos = [
     name: "Stake.US",
     bonus: "Exclusive Bonus Offer",
     link: "https://stake.us/?c=aa43e6e4d9",
-    thumbnail: "assets/stakelogo.png",
+    thumbnail: "no-tilt-gaming/assets/stakelogo.png",
     landingPage: "StakeLandingPage.html",
     bgGradient: "linear-gradient(135deg, #1a1a6f, #3f51b5)"
   },
@@ -11,7 +11,7 @@ const casinos = [
     name: "Gains Casino",
     bonus: "Claim Your Welcome Bonus",
     link: "https://gains.com/?ref=blntslots",
-    thumbnail: "assets/gainscasino.jpg",
+    thumbnail: "no-tilt-gaming/assets/gainscasino.jpg",
     landingPage: "AffiliateSiteGainsLandingPage.html",
     bgGradient: "linear-gradient(135deg, #2a2a6f, #6a1b9a)"
   },
@@ -19,7 +19,7 @@ const casinos = [
     name: "Pulsz Casino",
     bonus: "Exclusive Signup Rewards",
     link: "https://www.pulsz.com/?invited_by=f4cffv",
-    thumbnail: "assets/PulszLogo.png",
+    thumbnail: "no-tilt-gaming/assets/PulszLogo.png",
     landingPage: "PulszLandingPage.html",
     bgGradient: "linear-gradient(135deg, #1a1a6f, #e91e63)"
   }
@@ -76,3 +76,4 @@ casinos.forEach(casino => {
   card.innerHTML = `${logoHTML}${textHTML}${buttonsHTML}`;
   grid.appendChild(card);
 });
+
