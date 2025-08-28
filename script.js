@@ -3,7 +3,7 @@ const casinos = [
     name: "Stake.US",
     bonus: "Exclusive Bonus Offer",
     link: "https://stake.us/?c=aa43e6e4d9",
-    thumbnail: "no-tilt-gaming/assets/stakelogo.png",
+    thumbnail: "no-tilt-gaming/assets/StakeLogo.png",
     landingPage: "StakeLandingPage.html",
     bgGradient: "linear-gradient(135deg, #1a1a6f, #3f51b5)"
   },
@@ -76,4 +76,5 @@ casinos.forEach(casino => {
   card.innerHTML = `${logoHTML}${textHTML}${buttonsHTML}`;
   grid.appendChild(card);
 });
+
 
